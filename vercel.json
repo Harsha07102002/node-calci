@@ -1,0 +1,13 @@
+{
+    "version": 2,
+    "builds": [
+      { "src": "calculator.js", "use": "@vercel/node" }
+    ],
+    "routes": [
+      { "src": "/", "dest": "/" },
+      { "src": "/bmicalculator", "dest": "/bmicalculator" },
+      { "src": "/bmicalculator.html", "dest": "/bmicalculator.html" },
+      { "src": "/index.html", "dest": "/index.html" }
+    ]
+  }
+  
